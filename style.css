@@ -1,0 +1,55 @@
+:root {
+    --box-size: 250px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.square {
+    display: flex;
+    justify-content: space-between;
+    height: var(--box-size);
+    width: var(--box-size);
+    background-color: white;
+    border: 1px solid black;
+}
+
+.square2 {
+    align-self:center;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+.square1 .circle1 {
+    align-self: flex-end;
+}
+
+.square1 .circle2 {
+    align-self: center;
+}
+
+.square1 .circle3 {
+    align-self: flex-start;
+}
+
+.square3 .circle2 {
+    align-self: center;
+}
+
+.square3 .circle3 {
+    align-self: flex-end;
+}
