@@ -53,3 +53,15 @@ body {
 .square3 .circle3 {
     align-self: flex-end;
 }
+
+.square2 .circle1 {
+    align-self: flex-end;
+}
+
+.square2 .circle2 {
+    align-self: center;
+}
+
+.square2 .circle3 {
+    align-self: flex-end;
+}
